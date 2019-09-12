@@ -50,6 +50,7 @@ public class IntentServiceActivity extends Activity {
         registerReceiver(mBroadcastReceiver, intentFilter);
 
         initView();
+
     }
 
     public void initView() {
